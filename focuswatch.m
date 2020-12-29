@@ -28,7 +28,13 @@
 }
 - (void)activeAppDidChange:(NSNotification *)notification {
     self.currentApp = [[notification userInfo] objectForKey:NSWorkspaceApplicationKey];
-    NSLog(@"Current application: %@", currentApp.localizedName);
+    NSLog(
+        @"Current application: %d: %@ - %@ - %@",
+        currentApp.processIdentifier,
+        currentApp.localizedName,
+        currentApp.bundleIdentifier,
+        currentApp.bundleURL
+    );
 }
 @end
 
