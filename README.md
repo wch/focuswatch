@@ -24,10 +24,10 @@ To run it:
 The output looks something like this:
 
 ```
-2020-12-29 16:42:29.749 focuswatch[94878:10978478] Current application: 450: Sublime Text - com.sublimetext.3 - file:///Applications/Sublime%20Text.app/
-2020-12-29 16:42:33.437 focuswatch[94878:10978478] Current application: 449: Terminal - com.apple.Terminal - file:///System/Applications/Utilities/Terminal.app/
+2020-12-29 16:42:29.749 focuswatch[94878:10978478] Current application:   450: Sublime Text - com.sublimetext.3 - file:///Applications/Sublime%20Text.app/
+2020-12-29 16:42:33.437 focuswatch[94878:10978478] Current application:   449: Terminal - com.apple.Terminal - file:///System/Applications/Utilities/Terminal.app/
 2020-12-29 16:42:36.829 focuswatch[94878:10978478] Current application: 99941: Google Chrome - com.google.Chrome - file:///Applications/Google%20Chrome.app/
-2020-12-29 16:42:37.603 focuswatch[94878:10978478] Current application: 449: Terminal - com.apple.Terminal - file:///System/Applications/Utilities/Terminal.app/
+2020-12-29 16:42:37.603 focuswatch[94878:10978478] Current application:   449: Terminal - com.apple.Terminal - file:///System/Applications/Utilities/Terminal.app/
 ```
 
 ## `focuscheck.py`
